@@ -1,0 +1,3 @@
+file:///Z:/public_html/VIP_WEB/Cannes/
+
+http://iutdoua-web.univ-lyon1.fr/phpMyAdmin/

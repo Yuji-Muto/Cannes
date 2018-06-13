@@ -1222,7 +1222,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 h1 small,
@@ -1582,10 +1582,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+text-align: center;
 }
 @media (min-width: 768px) {
   .container {

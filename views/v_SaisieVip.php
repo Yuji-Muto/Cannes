@@ -1,3 +1,6 @@
+ 
+ <?php require_once(PATH_VIEWS.'header.php');?>
+ 
  <form>
 	<label for="nom">Nom</label>  <input type="text" name="nom" id="nom" />
 	<br>
@@ -11,6 +14,8 @@
 	<br>   
 	<label for="coeficient">Coeficient d'importance</label>  <input type="number" min="1" max="10" step="1" name="coeficient" id="coeficient" />
 	<br>
-	<input type="submit" value="Ajouter" />
+	<button type="submit">Ajouter</button>
 	   
 </form>
+
+<?php require_once(PATH_VIEWS.'footer.php'); 

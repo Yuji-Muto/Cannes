@@ -1,14 +1,51 @@
-/*
- * TP PHP
- * css du site
- *
- * Copyright 2016, Eric Dufour
- * http://techfacile.fr
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
- 
+
+#oui {
+	margin-top: 10%;
+    margin-left: 50%;
+	
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button 
+{
+    background-color: #bd9e52;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+form 
+{
+	padding: 10px;
+    border: 1px #bd9e52 solid;
+    margin: 10px;
+    width: 400px;
+	display: flex;
+	justify-content: center;
+    color: #101410;
+}
+
+#titreh2
+{
+	margin-left:5px;
+	color:#bd9e52;
+}
+
 title {
     font-size:200%;
     
@@ -35,14 +72,14 @@ title {
 }
 .footer{	
 	bottom: auto;
-	background-color: #818181;
-	color: #fff;
+	background-color: #101410;
+	color: #bd9e52;
 	width: 100%;
 	height:auto;
 	margin-top: 40px;
 }
 .header {
-	background-color: #49B47C;
+	background-color: #101410;
 	color: #fff;
 	width: 100%;
 	padding:10px 0px;

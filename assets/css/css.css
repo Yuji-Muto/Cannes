@@ -1,7 +1,33 @@
+ html
+{
+	position : relative;
+	min-height : 100%;
+	
+}
 
+table
+{
+    border-collapse: collapse;
+	margin-top: 20%;
+    margin-left: 20%;
+}
+td, th 
+{
+    border: 2px solid #bd9e52;
+	text-align: center;
+}
+
+#fromconnex
+{
+	display: flex;
+	justify-content: center;
+	margin-left: 50%;
+	margin-top:15%;
+}
 #oui {
-	margin-top: 10%;
+	margin-top: 20%;
     margin-left: 50%;
+	justify-content: center;
 	
 }
 
@@ -14,7 +40,22 @@ input{
     box-sizing: border-box;
 }
 
-button 
+#B_retour
+{
+	position : absolute;
+	left: 10px;
+	width: auto;
+	padding: 1px 10px;
+	color : white;
+	border: 1px solid #bd9e52;
+	background-color: #bd9e52;
+}
+
+#B_retour:hover {
+    opacity: 0.8;
+}
+
+button, #B_accueil
 {
     background-color: #bd9e52;
     color: white;
@@ -23,6 +64,10 @@ button
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+#B_accueil:hover {
+    opacity: 0.8;
 }
 
 button:hover {
@@ -35,8 +80,7 @@ form
     border: 1px #bd9e52 solid;
     margin: 10px;
     width: 400px;
-	display: flex;
-	justify-content: center;
+	
     color: #101410;
 }
 
@@ -71,7 +115,8 @@ title {
 	color:#a94442;
 }
 .footer{	
-	bottom: auto;
+	position : absolute;
+	bottom: 0;
 	background-color: #101410;
 	color: #bd9e52;
 	width: 100%;

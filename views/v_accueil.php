@@ -1,12 +1,13 @@
 
 <?php require_once(PATH_VIEWS.'header.php');?>
 <div id="oui" >
-
-	 <button > Saisie d'une fiche VIP </button> 
+    <a href="index.php?page=SaisieVip">
+	<input id="B_accueil" type="button" name="Saisie" value="Saisie d'une fiche VIP "/></a> 
 	
 	<label for="saisie">Saisissez vos fiches VIP</label> 
 	<br>
-	<button type="submit">Consulter les fiches VIP</button>
+	<a href="index.php?page=Consultation">
+	 <input id="B_accueil" type="button" name="Consulter" value="Consulter les fiches VIP"/></a>
 	
 	<label for="consulter">Consultez et éditez vos fiches VIP existantes</label> 
 	

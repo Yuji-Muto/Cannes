@@ -19,7 +19,7 @@
 			<div class="container" >
 				<div class = "row">
 					<div >
-						<h3> <span align="right" style="display:inline-block; width: 500px;"></span> <?= FOOTER ?></h3> 
+						<h3> <span align="right" style="display:inline-block; width: 400px;"></span> <?= FOOTER ?></h3> 
 					</div>
                                     
 			</div>

@@ -19,10 +19,10 @@ if(isset($_POST['id'])&& isset($_POST['passwd']))
 		exit();
 	}
 	else if($identif != login){
-		
+		echo("Login incorrect");
 	}
 	else{
-		
+		echo("Login incorrect");
 	}
 }
 

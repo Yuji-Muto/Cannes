@@ -13,12 +13,21 @@
        <th>Coeficient<br> d'importance</th>
    </tr>
    <tr>
-       <td>Jean</td>
-       <td>Oui</td>
-       <td>Journaliste</td>
-	   <td>16/12/1968</td>
-       <td>Anglais</td>
-       <td>10</td>
+   <?php
+       foreach($tableau as $personne)
+            {
+            ?>
+                <tr>
+                    <td><?php echo $personne[0];?></td>
+                    <td><?php echo $personne[1];?></td>
+                    <td><?php echo $personne[2];?></td>
+                    <td><?php echo $personne[3];?></td>
+                    <td><?php echo $personne[4];?></td>
+                    <td><?php echo $personne[5];?></td>
+                </tr>
+            <?php
+            }
+			?>
    </tr>
  
 </table>

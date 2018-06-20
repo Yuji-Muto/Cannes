@@ -11,44 +11,44 @@ class VIP
 	private $_IDVIP;
 	private $_PHOTOVIP;
 	
-	public function __construct($ID,$TITRE,$RESUME,$NOMFICHIER,$NATIONALITE)
+	public function __construct($ID,$PRENOMVIP,$METIER,$DATENAISS,$NATIONALITE,$IDVIP,$PHOTOVIP)
 	{
 		$this->_NOMVIP = $ID;
-		$this->_PRENOMVIP = $TITRE;
-		$this->_METIER = $RESUME;
-		$this->_DATENAISS = $NOMFICHIER;
+		$this->_PRENOMVIP = $PRENOMVIP;
+		$this->_METIER = $METIER;
+		$this->_DATENAISS = $DATENAISS;
         $this->_NATIONALITE = $NATIONALITE;
 		$this->_COEFIMPORT = $COEFIMPORT;
 		$this->_IDVIP = $IDVIP;
 		$this->_PHOTOVIP = $PHOTOVIP;
 	}
 	
-	public function getID(){
+	public function getNOMVIP(){
 		return $this->_NOMVIP;
 	}
-	public function setID($ID){
-		$this->_NOMVIP = $ID;
+	public function setNOMVIP($NOMVIP){
+		$this->_NOMVIP = $NOMVIP;
 	}
 	
-	public function getTITRE(){
+	public function getPRENOMVIP(){
 		return $this->_PRENOMVIP;
 	}
-	public function setTITRE($TITRE){
-		$this->_PRENOMVIP = $TITRE;
+	public function setPRENOMVIP($PRENOMVIP){
+		$this->_PRENOMVIP = $PRENOMVIP;
 	}
 	
-	public function getRESUME(){
+	public function getMETIER(){
 		return $this->_METIER;
 	}
-	public function setRESUME($RESUME){
-		$this->_METIER = $RESUME;
+	public function setMETIER($METIER){
+		$this->_METIER = $METIER;
 	}
 	
-	public function getNOMFICHIER(){
+	public function getDATENAISS(){
 		return $this->_DATENAISS;
 	}
-	public function setNMOFICHIER($NOMFICHIER){
-		$this->_DATENAISS = $NOMFICHIER;
+	public function setDATENAISS($DATENAISS){
+		$this->_DATENAISS = $DATENAISS;
 	}
         public function getNATIONALITE(){
 		return $this->_NATIONALITE;

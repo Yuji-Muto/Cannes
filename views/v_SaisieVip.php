@@ -5,30 +5,34 @@
 	<input id="B_retour" type="button" name="Retour" value="Accueil"/></a>
 	
  <div id="oui" >
- <form>
-	<label for="nom">Nom</label>  <input type="text" name="nom" id="nom" />
+ <form method="POST">
+	<label for="nom">Nom</label> 
+	<input type="text" name="NOMVIP" id="NOMVIP" />
 	<br>
-	<label for="prenom">Prénom</label>  <input type="text" name="prenom" id="prenom" />
+	<label for="prenom">Prénom</label>  
+	<input type="text" name="PRENOMVIP" id="PRENOMVIP" />
 	<br>
-	<label for="metier">Métier</label>  <input type="text" name="metier" id="metier" />
+	<label for="metier">Métier</label> 
+	<input type="text" name="METIER" id="METIER" />
 	<br> 
 	<label for="datenaiss">Date de naissance</label> 
-	<input id="date" type="date">
+	<input id="DATEN" type="date" name="DATEN">
 	<br>   
-	<label for="nationalite">Nationalité</label>  <input type="email" name="nationalite" id="nationalite" />
-	<br>   
+	<label for="nationalite">Nationalité</label>  
+	<input type="text" name="NATIONALITE" id="NATIONALITE" />
+	<br>  
 	<label for="coeficient">Coeficient d'importance</label>   
-	<select name="coef">
-		  <option value="coef">1</option>
-		  <option value="coef">2</option>
-		  <option value="coef">3</option>
-		  <option value="coef">4</option>
-		  <option value="coef">5</option>
-		  <option value="coef">6</option>
-		  <option value="coef">7</option>
-		  <option value="coef">8</option>
-		  <option value="coef">9</option>
-		  <option value="coef">10</option>
+	<select name="COEFIMPORT" id="COEFIMPORT">
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		  <option value="6">6</option>
+		  <option value="7">7</option>
+		  <option value="8">8</option>
+		  <option value="9">9</option>
+		  <option value="10">10</option>
 	</select> 
 	<br>
 	<button type="submit">Ajouter</button>

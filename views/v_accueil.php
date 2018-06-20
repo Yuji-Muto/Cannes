@@ -4,6 +4,7 @@
     <a href="index.php?page=SaisieVip">
 	<input id="B_accueil" type="button" name="Saisie" value="Saisie d'une fiche VIP "/></a> 
 	
+	
 	<label for="saisie">Saisissez vos fiches VIP</label> 
 	<br>
 	<a href="index.php?page=Consultation">

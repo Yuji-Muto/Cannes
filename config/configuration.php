@@ -4,8 +4,8 @@ const DEBUG = true; // production : false; dev : true
 
 // Accès base de données
 const BD_HOST = 'iutdoua-web.univ-lyon1.fr';
-const BD_DBNAME = 'p1602895';
-const BD_USER = 'p1602895';
+const BD_DBNAME = 'p1602894';
+const BD_USER = 'p1602894';
 const BD_PWD = '267235';
 
 //Session
